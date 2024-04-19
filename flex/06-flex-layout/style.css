@@ -44,6 +44,7 @@ a {
 .header, .footer{
   display: flex;
   margin:15px;
+  margin-bottom: 0;
 }
 
 .left-links, .right-links{
@@ -63,4 +64,10 @@ margin-left: auto;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.footer{
+  background-color: #eee;
+  margin: 0;
+padding: 15px;
 }
