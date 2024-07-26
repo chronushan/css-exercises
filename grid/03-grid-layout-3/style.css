@@ -36,7 +36,7 @@
 .menu ul {
 	display: grid;
 	grid-template: 1fr / repeat(4, 1fr);
-	justify-items: end;
+	justify-items: center;
 }
 
 .menu ul,
